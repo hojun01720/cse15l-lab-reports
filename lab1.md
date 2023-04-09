@@ -1,4 +1,4 @@
-**Lab report 1**
+# Lab report 1 1
 
 Severals steps are needed to log into a course-specific account on ieng6
 
