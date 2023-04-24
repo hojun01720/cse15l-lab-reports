@@ -32,3 +32,38 @@ The second use of '/add-message': <br/>
   
   
   ***Part 2:*** <br/><br/>
+  
+  Buggy code: <br/>
+  
+  ```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+  ```
+<br/>
+
+Failure input: <br/>
+```
+ public void testReversed2(){
+    int[] input1 = {1,2,3,4,5};
+    assertArrayEquals(new int[]{5,4,3,2,1}, ArrayExamples.reversed(input1));
+  }
+ ```
+<br/> 
+
+![Fail](https://github.com/hojun01720/cse15l-lab-reports/blob/main/Screenshot%202023-04-24%20134022.png?raw=true)<br/>
+
+Working input: <br/>
+```
+ public void testReversed2(){
+    int[] input1 = {0,0,0,0,0};
+    assertArrayEquals(new int[]{0,0,0,0,0}, ArrayExamples.reversed(input1));
+  }
+ ```
+<br/> 
+
+![Work](https://github.com/hojun01720/cse15l-lab-reports/blob/main/Screenshot%202023-04-24%20134035.png?raw=true)<br/>
