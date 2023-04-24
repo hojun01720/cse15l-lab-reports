@@ -66,4 +66,28 @@ Working input: <br/>
  ```
 <br/> 
 
-![Work](https://github.com/hojun01720/cse15l-lab-reports/blob/main/Screenshot%202023-04-24%20134035.png?raw=true)<br/>
+![Work](https://github.com/hojun01720/cse15l-lab-reports/blob/main/Screenshot%202023-04-24%20134035.png?raw=true)<br/><br/>
+
+The problem of the code is that the code that should've assign newArray[] using arr[] was actually assigned wrong way.<br/>
+Wrong `arr[i] = newArray[arr.length - 1 - i]` <br/>
+Correct 'newArray[i] = arr[arr.length - 1 - i]` <br/><br/>
+
+Then the full correct code will be: <br/>
+```
+ static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+<br/>
+
+Now with this input, it will run correctly.
+`int[] input1 = {0,0,0,0,0};` <br/>
+![Fix](https://github.com/hojun01720/cse15l-lab-reports/blob/main/Screenshot%202023-04-24%20142150.png?raw=true)<br/><br/><br/>
+
+
+***Part 3:***<br/>
+I did not know at all how the create a local servers. Despite it is still confusing, and there are many things to understand like Server.java, it is quite thrilling I made a web server. Now I know some sense of using Server class and Handler things. I'll absolutely dive into it when I'm free.
