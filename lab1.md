@@ -15,5 +15,22 @@ For changing the password, follow the instruction written there <br/>
 If you did correctly this will show up.
 ![Immage](https://github.com/hojun01720/cse15l-lab-reports/blob/main/Screenshot%202023-04-08%20222709.png?raw=true)<br/><br/>
 
-5. Now try some other commands like "ls -lat". Then this will show up <br/>
+5. Now try some other commands like "`ls` -lat". Then this will show up <br/>
 ![Image](https://github.com/hojun01720/cse15l-lab-reports/blob/main/Screenshot%202023-04-08%20223125.png?raw=true)
+
+6. There are other useful commands to play with. <br/>
+*`ls -lat` <br/>
+*`ls`<br/>
+*`cat`<br/>
+*`cd`<br/><br/>
+For example change your directory by doing this "`cd` ~/../public" <br/>
+This will take you to the public directory. <br/>
+![Image](https://github.com/hojun01720/cse15l-lab-reports/blob/main/Screenshot%202023-04-23%20230625.png?raw=true) <br/><br/>
+Then type `ls` to find what kind of files there are.<br/>
+![Image](https://github.com/hojun01720/cse15l-lab-reports/blob/main/Screenshot%202023-04-23%20230928.png?raw=true) <br/><br/>
+Now if you do "`cat` hello.txt" it will display the content of the txt file <br/>
+![Image](https://github.com/hojun01720/cse15l-lab-reports/blob/main/Screenshot%202023-04-23%20231018.png?raw=true) <br/>
+
+<br/>
+Now it is your turn to carry this weight!
+
