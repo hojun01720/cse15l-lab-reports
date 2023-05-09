@@ -70,7 +70,7 @@ Working input: <br/>
 
 The problem of the code is that the code that should've assign newArray[] using arr[] was actually assigned wrong way.<br/>
 Wrong `arr[i] = newArray[arr.length - 1 - i]` <br/>
-Correct 'newArray[i] = arr[arr.length - 1 - i]` <br/><br/>
+Correct `newArray[i] = arr[arr.length - 1 - i]` <br/><br/>
 
 Then the full correct code will be: <br/>
 ```
