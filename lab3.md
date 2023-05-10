@@ -26,7 +26,7 @@ I found interesting command-line options for command `find`. <br/><br/>
   4. The last option is `-delete`. After finding a specific file that I want, if I write `-delete`, then it deletes that file.
      * Use of delete <br/>
      ![del](https://github.com/hojun01720/cse15l-lab-reports/blob/main/f-del.png?raw=true) <br/>
-     As shown, before I had a file `/chapter-13.5.txt`. However after I typed `-delete` in the end, when I reran the find command, it shows it's gone. <br/><brl>
+     As shown, before I had a file `/chapter-13.5.txt`. However after I typed `-delete` in the end, when I reran the find command, it shows it's gone. <br/><br/>
      * Use on `-delete` for multiple files <br/>
      ![delmult](https://github.com/hojun01720/cse15l-lab-reports/blob/main/f-del-mult.png?raw=true) <br/>
      `-delete` can also delete multiple files it found. Now all the `/chapter-13.*.txt` files are gone.
