@@ -85,4 +85,6 @@ I added `direct="find student-submission/* -type f -name "ListExamples.java""` b
 5. After fixing `grade.sh` file, when I run `bash grade.sh` with [nested github URL](https://github.com/ucsd-cse15l-s23/list-methods-nested), now it detects the `ListExamples.java` file and normally scores the test. <br/><br/><br/><br/>
 
 ## Part 2 <br/>
-I learned a lot from the class. I learned how to use
+I learned a lot from the class. I learned how to use bash script and vim command. I was really surprised that I can save all the commands in the bash file and load it when it's necessary. This will be very helpful when I need to repeat the same commands over and over. <br/>
+Also, I am happy to learn the vim. At first, I thought is is useless, but then I found out it is useful when I don't know where the file is to open up on VS Code, or when I am only working in the terminal. <br/>
+These new skill will be very useful for further CSE classes and even at the workplace. I am gald that I learned them.
